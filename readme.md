@@ -14,19 +14,23 @@ limited functionality to test tensorFlow JS models by varying the neural network
 
 #### Register for an account
 
-![alt text](https://github.com/brianjburrow/SOKA_PUBLIC/blob/main/readme_images/current_weather.png)
+![alt text](https://github.com/brianjburrow/nnTest/blob/main/readme_images/signup.png)
 
 #### Start with the basics
 
-![alt text](https://github.com/brianjburrow/SOKA_PUBLIC/blob/main/readme_images/weather_forecast.png)
+![alt text](https://github.com/brianjburrow/nnTest/blob/main/readme_images/basics.png)
 
 #### Adjust your Neural Network Structure
 
-![alt text](https://github.com/brianjburrow/SOKA_PUBLIC/blob/main/readme_images/plan_activity.png)
+![alt text](https://github.com/brianjburrow/nnTest/blob/main/readme_images/adjust.png)
 
-#### Train your model!
+#### Train your model.
 
-![alt text](https://github.com/brianjburrow/SOKA_PUBLIC/blob/main/readme_images/gear_page_empty.png)
+![alt text](https://github.com/brianjburrow/nnTest/blob/main/readme_images/train.png)
+
+#### Analyze your results.
+
+![alt text](https://github.com/brianjburrow/nnTest/blob/main/readme_images/analyze.png)
 
 ## Current Progress and Future work
 
