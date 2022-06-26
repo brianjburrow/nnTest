@@ -10,6 +10,7 @@ const express = require("express");
 const router = new express.Router();
 
 const {createToken} = require('../helpers/tokens');
+const NeuralNetwork = require("../models/nn");
 
 const userAuthSchema = require('../schemas/userAuth.json');
 const userRegisterSchema = require('../schemas/userRegister.json');
@@ -19,10 +20,11 @@ const {BadRequestError} = require('../expressError');
 /** POST 
 */
 
-
-router.post('/token', async function (req, res, next){
-    try{
-        return res.json({ test: "welcome"});
+router.post('/train', async function (req, res, next){
+    try {
+        let lstm_model = new NeuralNetwork(req.body, 0.01, 200, 100);
+        let result = await lstm_model.run();
+        return res.json(result);
     } catch (err){
         return next(err);
     }

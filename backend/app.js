@@ -23,7 +23,7 @@ app.use(authenticateJWT);
 
 app.use('/auth', authRoutes);
 app.use('/users', userRoutes)
-app.use('/nnRoutes', nnRoutes);
+app.use('/nnroutes', nnRoutes);
 
 /** Handle 404 errors -- this matches everything */
 app.use(function(req, res, next){
