@@ -1,3 +1,4 @@
+// based on coursework for Springboard
 const bcrypt = require("bcrypt");
 
 const db = require("../db.js");

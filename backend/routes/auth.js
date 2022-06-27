@@ -1,5 +1,5 @@
 "use strict";
-
+// based on coursework for Springboard
 /** Routes for authentication. */
 
 const jsonschema = require("jsonschema");

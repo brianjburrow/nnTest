@@ -1,3 +1,4 @@
+// based on coursework for Springboard
 "use strict";
 
 const jwt = require("jsonwebtoken");

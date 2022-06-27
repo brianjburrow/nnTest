@@ -1,8 +1,7 @@
 "use strict";
 
 /** Routes for handling users. */
-
-const jsonschema = require("jsonschema");
+// based on coursework for Springboard
 
 const User = require("../models/user");
 const express = require("express");
