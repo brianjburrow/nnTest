@@ -2,6 +2,7 @@ import React from "react";
 import { render } from "@testing-library/react";
 import Alert from "./Alert";
 
+// tests based on Jobly App (Springboard)
 it("renders without crashing", function () {
     render(<Alert />);
 });

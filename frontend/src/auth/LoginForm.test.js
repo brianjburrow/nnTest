@@ -3,7 +3,7 @@ import { render } from "@testing-library/react";
 import LoginForm from "./LoginForm";
 import { MemoryRouter } from "react-router";
 
-
+// tests based on Jobly App (Springboard)
 it("renders without crashing", function () {
     render(<LoginForm />);
 });

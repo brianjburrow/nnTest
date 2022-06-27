@@ -13,17 +13,17 @@ import UserContext from "../auth/UserContext";
  */
 
 function Homepage() {
-    const { currentUser } = useContext(UserContext);
-    console.debug("Homepage", "currentUser=", currentUser);
+    const user = useContext(UserContext);
+    console.debug("Homepage", "currentUser=", user);
 
     return (
         <div className="Homepage">
             <div className="container text-center">
                 <h1 className="mb-4 font-weight-bold">nnTest</h1>
                 <p className="lead">nnTest is a way to test out LSTM structures on forecasting tasks.</p>
-                {currentUser
+                {user && user.currentUser
                     ? <h2>
-                        Welcome Back, {currentUser.firstName || currentUser.username}!
+                        Welcome Back, {user.currentUser.firstName || user.currentUser.username}!
                     </h2>
                     : (
                         <p>

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when logged in 1`] = `
+<DocumentFragment>
+  <div>
+    Layer #
+    <p />
+    <ul />
+    <button>
+      Insert Layer
+    </button>
+    <button>
+      Delete Layer
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot when logged out 1`] = `
+<DocumentFragment>
+  <div>
+    Layer #
+    <p />
+    <ul />
+    <button>
+      Insert Layer
+    </button>
+    <button>
+      Delete Layer
+    </button>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when logged in 1`] = `
+<DocumentFragment>
+  <div
+    class="NeuralNetworkList col-md-8 offset-md-2"
+  >
+    <div
+      class="NeuralNetworkList-list row"
+    >
+      <div
+        class="NeuralNetworkCard card col-6 "
+      >
+        <div
+          class="card-body"
+        >
+          <div>
+            <div>
+              Layer #0
+              <p>
+                lstm
+              </p>
+              <ul>
+                <li>
+                  units:25
+                </li>
+                <li>
+                  activation:relu
+                </li>
+                <li>
+                  inputShape:3
+                </li>
+              </ul>
+              <button>
+                Insert Layer
+              </button>
+              <button>
+                Delete Layer
+              </button>
+            </div>
+          </div>
+          <div>
+            <div>
+              Layer #1
+              <p>
+                dense
+              </p>
+              <ul>
+                <li>
+                  units:1
+                </li>
+              </ul>
+              <button>
+                Insert Layer
+              </button>
+              <button>
+                Delete Layer
+              </button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="btn btn-primary"
+        >
+          Train Neural Network
+        </button>
+      </div>
+      <div
+        class="NeuralNetworkCard card col-6 "
+      >
+        <div
+          class="card-body"
+        >
+          <div>
+            <div>
+              Layer #0
+              <p>
+                lstm
+              </p>
+              <ul>
+                <li>
+                  units:25
+                </li>
+                <li>
+                  activation:relu
+                </li>
+                <li>
+                  inputShape:3
+                </li>
+              </ul>
+              <button>
+                Insert Layer
+              </button>
+              <button>
+                Delete Layer
+              </button>
+            </div>
+          </div>
+          <div>
+            <div>
+              Layer #1
+              <p>
+                dense
+              </p>
+              <ul>
+                <li>
+                  units:1
+                </li>
+              </ul>
+              <button>
+                Insert Layer
+              </button>
+              <button>
+                Delete Layer
+              </button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="btn btn-primary"
+        >
+          Train Neural Network
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot when logged out 1`] = `
+<DocumentFragment>
+  <div
+    class="NeuralNetworkList col-md-8 offset-md-2"
+  >
+    <div
+      class="NeuralNetworkList-list row"
+    >
+      <div
+        class="NeuralNetworkCard card col-6 "
+      >
+        <div
+          class="card-body"
+        >
+          <div>
+            <div>
+              Layer #0
+              <p>
+                lstm
+              </p>
+              <ul>
+                <li>
+                  units:25
+                </li>
+                <li>
+                  activation:relu
+                </li>
+                <li>
+                  inputShape:3
+                </li>
+              </ul>
+              <button>
+                Insert Layer
+              </button>
+              <button>
+                Delete Layer
+              </button>
+            </div>
+          </div>
+          <div>
+            <div>
+              Layer #1
+              <p>
+                dense
+              </p>
+              <ul>
+                <li>
+                  units:1
+                </li>
+              </ul>
+              <button>
+                Insert Layer
+              </button>
+              <button>
+                Delete Layer
+              </button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="btn btn-primary"
+        >
+          Train Neural Network
+        </button>
+      </div>
+      <div
+        class="NeuralNetworkCard card col-6 "
+      >
+        <div
+          class="card-body"
+        >
+          <div>
+            <div>
+              Layer #0
+              <p>
+                lstm
+              </p>
+              <ul>
+                <li>
+                  units:25
+                </li>
+                <li>
+                  activation:relu
+                </li>
+                <li>
+                  inputShape:3
+                </li>
+              </ul>
+              <button>
+                Insert Layer
+              </button>
+              <button>
+                Delete Layer
+              </button>
+            </div>
+          </div>
+          <div>
+            <div>
+              Layer #1
+              <p>
+                dense
+              </p>
+              <ul>
+                <li>
+                  units:1
+                </li>
+              </ul>
+              <button>
+                Insert Layer
+              </button>
+              <button>
+                Delete Layer
+              </button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="btn btn-primary"
+        >
+          Train Neural Network
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -12,6 +12,7 @@ function getDefaultStructure(units = 25, activation = 'relu', numTimeSteps = 3){
     return { type: "lstm", params: { units: units, activation: activation, inputShape: `${numTimeSteps}` } }
 }
 function NeuralNetworkCard({ layerList }) {
+    console.debug("NeuralNetworkCard", layerList)
     let [displayState, setDisplayState] = useState("card"); // Set("card", "training", "analysis")
     let [nnResult, setNnResult] = useState(null);
     let [newLayerFormIndex, setNewLayerFormIndex] = useState(null);
